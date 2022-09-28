@@ -45,6 +45,18 @@
 
         console.log('\n') //line break
 
+        //else if
+        let counter = 200;
+        if(counter < 30 ){
+          console.log('Too many count');
+        }else if(counter >=30 && counter <200) {
+          //console.log(`Some visitors here.);
+        }else {
+             console.log(`lots of visitors here!`);
+        }
+
+        console.log('\n') //line break
+
       
 
        
