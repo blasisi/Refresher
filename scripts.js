@@ -25,7 +25,7 @@
         console.log('\n') //line break
 
         //This code checks if the value of the firstname variable is not equal to an empty string i excgute the code inside curly braces
-        firstName ="Demi";
+        let firstName = "Demi";
         if (firstName != "") {
 
           // console.log(`Hello ,${firstName}!`);
@@ -59,6 +59,28 @@
 
       
 
-       
+       //For loop 
+
+       //loop are use to excute the same code multiples times each time with a different value
+       //for loop has syntax of declaring a variables to use as the index, whats the start point in the loop, thene check the condition to see if it evaluate to true and they increment the index
+
+       for(let index = 1; index <=10; index++){ //created variable name index, i set the value equal 1, as long as the index is less than 11 i am going to excute the code inside of the curly braces. which is to simply console.log value of the index.after i finish excution of the code inside of the curly braces i jump up and increment that index(index = index +1 )
+        console.log(`The current index ${index}.`);
+
+       }
+       console.log('\n') //line break
+
+
+       for(let index = 10; index >=0; index--){ //print the number in reverse order, first by starting with index of 10, as long as the index is graeater than or equal to 0  we write to the console  and decreament the index by 1 meaning subtracting 1 until the index is no longer granter than or equal to zero . 
+
+        console.log(`The current index ${index}.`);
+
+       }
+       console.log('\n') //line break
+
+
+
+
+
 
       
