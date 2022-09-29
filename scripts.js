@@ -78,8 +78,31 @@
        }
        console.log('\n') //line break
 
+//Arrays
+//Array is created using the square bracket syntax
+let array = [];
+console.log[array];// This tell us its an empty arrays
+console.log[typeof array];//this tells the data type of the array, the variable of my array id a type of object
+console.log[array.length];//this tell how many elements are in the arrays, when we excute its shows how many items in browser , i can see we have zero elements in thr arrays
+
+//arrays starts from 0 index, th
+
+let student =["Abi Ola", " Bim Bola ", "Ali Ola"];//Gave the arrays a name of student , each students name are in strings, wrapped in quote, when i declare the variables with open and close square bracket, i populate the variable with value this time, three students separated by commas. this variable students is an array which has three elements and if i write this to the console i can see three item in the arrays
+//arrays starts from 0 index, 
+console.log[student];
+
+//
+let studentCount = student.length;// this allow use o get the number of elements in the array. i use the length property to store this value in a variable so i can write out to the console wherever the number of items in the arrays , so arrays length student in the arrray 
+console.log(`${studentCount}`);//this shows the students in the arrays
 
 
+let firstStudent = student[0];//this allow me to get elements in the arrays using its index position starting with 0;i reference the arrays name student by using the square bracket to indicate i am accessing an element in the arrays and then pass the element's position
+console.log(`First Student: ${firstStudent}`);// excuting this code should tell that the first student is in this case is Abi Ola.
+
+
+//if i want to get the last element in the array, i will reference the arrrays like this .
+let lastStudent = student[studentCount -1];//To reference the array name i use the square bracket and then student count which is the length of the array minus 1, as the length of the array is three and we have 3 element in the element on line 90 ["Abi Ola", " Bim Bola ", "Ali Ola"]. as we know that the index start at zero Abi ola is at index zero, bim bola is at index one and ali ola is at index 2.
+console.log(`Last Student: ${lastStudent}`);
 
 
 
