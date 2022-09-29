@@ -96,14 +96,28 @@ let studentCount = student.length;// this allow use o get the number of elements
 console.log(`${studentCount}`);//this shows the students in the arrays
 
 
-let firstStudent = student[0];//this allow me to get elements in the arrays using its index position starting with 0;i reference the arrays name student by using the square bracket to indicate i am accessing an element in the arrays and then pass the element's position
+let firstStudent = student[0];//This allow me to get elements in the arrays using its index position starting with 0;i reference the arrays name student by using the square bracket to indicate i am accessing an element in the arrays and then pass the element's position
 console.log(`First Student: ${firstStudent}`);// excuting this code should tell that the first student is in this case is Abi Ola.
 
 
-//if i want to get the last element in the array, i will reference the arrrays like this .
+//if i want to get the last element in the array, i will reference the arrays like this .
 let lastStudent = student[studentCount -1];//To reference the array name i use the square bracket and then student count which is the length of the array minus 1, as the length of the array is three and we have 3 element in the element on line 90 ["Abi Ola", " Bim Bola ", "Ali Ola"]. as we know that the index start at zero Abi ola is at index zero, bim bola is at index one and ali ola is at index 2.
 console.log(`Last Student: ${lastStudent}`);
 
 
+//for loop method
+for(let i = 0; i < studentCount; i++){ //here is the for loop, i initiate the index to zero , because the first element in the array is zero position, as long as the index is less than student count, so the number of the element in the array, i can excute the code to print the current value of the index then the value of the element at that index in the users array, after i print it out i will the increment i and then do it again untill we have no more student.
+  console.log(`${student[i]}`);
+}
 
-      
+console.log('\n') //line break
+
+//add a another student to the array
+student.push("Monica Oluwa");// this add additional item to the existing array
+studentCount = student.length;// readd the value of studentCount to the new length of the student array, the loop throught the array each time though printing the current index and the of the element at index in the array
+for(let i =0; i < studentCount; i++){
+console.log(`${i}: ${student[i]}`);
+}
+
+
+
