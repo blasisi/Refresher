@@ -119,5 +119,32 @@ for(let i =0; i < studentCount; i++){
 console.log(`${i}: ${student[i]}`);
 }
 
+//Object literal
+//
+let pcUser ={} // first i decleared a variable  name pcUser ands i set it to be an empty object
+  console.log(pcUser);// value of pc user is empty object
+  console.log(typeof pcUser); //value of type of  pcuser is "object" , object can have properties
+
+
+//This line of code shows the properties and its values separated by a colon, the pcuser has a properties of Name
+  pcUser ={
+            "Name": "Bee",//The pcuser has a property of Name and its value is Bee
+            "DeskNo": "Desk2",//The pcuser has a Deskno property and its value is desk2
+            "TimeLogin": "2pm",// the pcuser time login property and has value of 2pm
+            "Age": "30",//same for age value 30
+            "Email":" bee@gmail.com" //email property and value email address bee@gmail.com
+  };
+console.log(pcUser);// this print out the object with its properties and values
+console.log(`${pcUser.Name} ${pcUser.DeskNo} ${pcUser.TimeLogin} ${pcUser.Age} ${pcUser.Email}`);//Here to access a particular properties values , i use dot nation. the console.log printout the usersPc properties the value of which includes  name,deskno,timelogin,age and email properties.
+
+//for in loop- this method is similar ti when i looped through an array and got the value at each element in the array. i can travese an object and get the value of each property in the object and we do that by using for in loopusing a for loop
+for(const key in student){ //for every key or property (use key to represent the property and value in the object). in this case every key in object which pcuser.
+  console.log(`${key}: ${pcUser}`);// console.log the key and go to the user object in square bracket i pass the key. the first time through this loop, the key will be Name. so it will got to pcuser object use the key Name and give me a value. so when the Name excute i would expect Name and Bee. then back to the for loop and it check to see if we have  more keys, which we do DeskNo print out deskno and value Desk2, and continue doing that as long as we have keys in in the object. when we run the code we can see we printed each key and its value.
+}
+
+
+
+
+
 
 
