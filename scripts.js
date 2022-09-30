@@ -139,7 +139,7 @@ console.log(`${pcUser.Name} ${pcUser.DeskNo} ${pcUser.TimeLogin} ${pcUser.Age} $
 
 //for in loop- this method is similar ti when i looped through an array and got the value at each element in the array. i can travese an object and get the value of each property in the object and we do that by using for in loopusing a for loop
 for(const key in student){ //for every key or property (use key to represent the property and value in the object). in this case every key in object which pcuser.
-  console.log(`${key}: ${pcUser}`);// console.log the key and go to the user object in square bracket i pass the key. the first time through this loop, the key will be Name. so it will got to pcuser object use the key Name and give me a value. so when the Name excute i would expect Name and Bee. then back to the for loop and it check to see if we have any more keys, which we do DeskNo print out deskno and value Desk2, and continue doing that as long as we have keys in in the object. when we run the code we can see we printed each key and its value.
+  console.log(`${key}: ${pcUser}`);// console.log the key and go to the user object in square bracket i pass the key. the first time through this loop, the key will be Name. so it will got to pcuser object use the key Name and give me a value. so when the Name excute i would expect Name and Bee. then back to the for loop and it check to see if we have  more keys, which we do DeskNo print out deskno and value Desk2, and continue doing that as long as we have keys in in the object. when we run the code we can see we printed each key and its value.
 }
 
 
