@@ -172,8 +172,8 @@ let roomFour = {
   "Name": "Sammy",//The pcuser has a property of Name and its value is Bee
    "DeskNo": "Desk5",//The pcuser has a Deskno property and its value is desk2
    "TimeLogin": "6pm",// the pcuser time login property and has value of 2pm
-   "Age": "40",//same for age value 30
-   "Email":" Sarah@gmail.com" //email property and value email address bee@gmail.com
+   "Age": "35",//same for age value 30
+   "Email":" Sammy@gmail.com" //email property and value email address bee@gmail.com
 
 };
 //push object to Array
@@ -189,4 +189,22 @@ console.log(`\n`);
   }
 
   //i looped through the array three times , each time  i am geting the current object and printing the key and values for the object property. i created array  object and they pushed the object to the array and they looping though to get each element which is an object and the looping through its properties and printing those out to the console.
+
+
+  //Function
+  //function is a block of code design to perform a particular task and it excite when something invoke it (call it)
+
+  function welcomeUsers(deskUsers){// start usuing function key world, gave function name welcomeUsers, and  excute when i invoke the function. the function is contained within opening and closing curly braces. 
+    let greeting =`Welcome Refresher Course, ${deskUsers}`;// so here i have added code to declare a variable with the text welcome refresher course and uses alert to display the greeting
+
+    
+  alert(greeting);
+  }
+
+  welcomeUsers();// to involve the function i reference by name and then add the opening and closing parentheses
+
+  //in addition to excuting the code inside the function i can pass values when i invoke and it values are called parameters which in defined inside the opening and closing  parentheses.
+  // Here i have added a parameter name deskUsers and reference the value of thr deskuser parameter by referencing to parameter by name. set the value of the greeeting to the string welcome referesher course and then inject the deskuser value greeting
+
+
 
